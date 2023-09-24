@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dashboard</title>
+<head>
+    <style>
+  .sidebar {
+        
+            width: 300px; /* Adjust the width as needed */
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: -300px; /* Initially hidden */
+            background-color: #333;
+            overflow-x: hidden;
+            transition: 0.5s;
+            
+           
+            border-right: 2px solid #444;
+        }
+
+        .sidebar-content {
+            display: flex;
+            flex-direction: column;
+            height:100%;
+            
+        
+            background-color:#9FA678; /* Different background color */
+            border:25px solid #A0A943;
+            
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        
+        }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+    
+
+        /* Add your CSS styles for the hamburger icon here */
+        .hamburger {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            z-index: 2;
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .fa-home,
+        .fa-sign-out {
+            font-size: 36px;
+        }
+        .fa-sign-out {
+            margin-left: 150px; /* Adjust the margin as needed */
+        }
+     
+      
+</style>
+</head>
+<body style="background-color: #C7D36F;">
+    <div style="width: 100%; height: 100%;  flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 1640px; height: 883px; position: relative; background: white; box-shadow: 0px 8px 13px #9EB23B; margin: none;">
+            <div style="width: 100%; height: 100vh;  background-image: url('OIG\ \(3\).jpeg'); background-repeat: no-repeat;background-size: cover; background-position: center; " ></div>
+            <div style="left: 424px; top: 48px; position: absolute; justify-content: center; align-items: flex-start; gap: 40px; display: inline-flex">
+                <a href="About.html" style="text-decoration: none;color: #31135E; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word ">About</a>
+                <a href="Features.html" style="text-decoration: none; color: black; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Features</a>
+                <a href="Language.html" style="text-decoration: none; color: black; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Language</a>
+                <a href="Help.html" style="text-decoration: none; color: black; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Help</a>
+            </div>
+         <!---   <div style="width: 32px; height: 32px; left: 69px; top: 40px; position: absolute; mix-blend-mode: exclusion">
+                <div style="width: 24px; height: 0px; left: 4px; top: 8px; position: absolute; border: 2px white solid"></div>
+                <div style="width: 24px; height: 0px; left: 4px; top: 16.09px; position: absolute; border: 2px white solid"></div>
+                <div style="width: 24px; height: 0px; left: 4px; top: 24.09px; position: absolute; border: 2px white solid"></div>-->
+            </div>
+            <div style="width: 20px; height: 0px; left: 423px; top: 72px; position: absolute; border: 2px #31135E solid"></div>
+            <div style="width: 353px; left: 36px; top: 570px; position: absolute; color: white; font-size: 36px; font-family: Roboto; font-weight: 700; word-wrap: break-word">The ultimate guide for smart farming and allocation.</div>
+            <div style="left: 1256px; top: 43px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 31px; height: 25px; padding-top: 1.50px; padding-bottom: 0.50px; mix-blend-mode: exclusion; justify-content: center; align-items: center; display: flex">
+                    <img style="width: 31px; height: 23px" src="OIG-removebg-preview.png" />
+                </div>
+                <div><span style="color: black; font-size: 22px; font-family: Roboto; font-weight: 300; word-wrap: break-word">Data</span><span style="color: black; font-size: 22px; font-family: Roboto; font-weight: 700; word-wrap: break-word">Farm</span></div>
+            </div>
+        </div>
+        <div style="align-self: stretch; padding-left: 24px; padding-right: 24px; padding-top: 64px; padding-bottom: 64px; background: #C7D36F; justify-content: center; align-items: flex-start; gap: 80px; display: inline-flex">
+            <div style="height: 500px; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
+                <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                    <div style="align-self: stretch; height: 210px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+                        <div style="align-self: stretch"><span style="color: #895D5D; font-size: 56px; font-family: Outfit; font-weight: 700; line-height: 67.20px; word-wrap: break-word">WELCOME<br/></span><span style="color: #895D5D; font-size: 35px; font-family: Outfit; font-weight: 700; line-height: 42px; word-wrap: break-word">Suresh!</span></div>
+                        <div style="align-self: stretch; color: #212121; font-size: 18px; font-family: Inter; font-weight: 400; line-height: 27px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</div>
+                    </div>
+                </div>
+                <img style="width: 500px; height: 500px" src="OIG.a-removebg-preview.png" />
+            </div>
+        </div>
+        <div style="width: 100%; height: 892px; padding-left: 24px; padding-right: 24px; padding-top: 64px; padding-bottom: 64px; background: #AEBF53; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
+            <div style="width: 100%; height: 779px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 64px; display: flex">
+                <div style="height: 102px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
+                    <div style="align-self: stretch; text-align: center; color: black; font-size: 32px; font-family: Inter; font-weight: 700; line-height: 38.40px; word-wrap: break-word">Your journey so far...</div>
+                    <div style="align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 24px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sagittis eros. Quisque quis euismod lorem.</div>
+                </div>
+                <div style="align-self: stretch; justify-content: center; align-items: center; gap: 2px; display: inline-flex">
+                    <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex">
+                        <img style="width: 676px; height: 505px" src="Untitled design (1).png" />
+                        <div style="align-self: stretch; height: 70px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
+                            <div style="align-self: stretch; height: 30px; flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
+                                <div style="align-self: stretch; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 700; line-height: 30px; word-wrap: break-word">2022</div>
+                            </div>
+                            <div style="align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 24px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                        </div>
+                    </div>
+                    <div style="width: 102px; padding-left: 43px; padding-right: 43px; padding-top: 233px; padding-bottom: 233px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; display: inline-flex">
+                        <div style="text-align: center; color: #895D5D; font-size: 65px; font-family: Irish Grover; font-weight: 400; line-height: 97.50px; word-wrap: break-word">>></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+
+        <!-- Sidebar -->
+        <div id="mySidebar" class="sidebar" onclick="closeSidebar()">
+           
+            <!-- Sidebar Content Wrapped in a Div -->
+            
+                <!-- You can add profile picture and other links here -->
+         >
+                
+         <div  class="sidebar-content">
+                    <div style="text-align: center;">
+                        <img src="pro.jpg" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; margin: 0 auto;">
+                    </div>
+                    <span style="color: white; font-size: 20px; text-align: center;">John Doe</span>
+                   
+                
+                <a href="#" style="padding-top: 50px;">Dashboard</a>
+                <a href="#">Your Inventory</a>
+                <a href="#">Crop plan</a>
+                <a href="#">Soil management</a>
+                <a href="#">Other recommended crops</a>
+                <a href="#">Resources and technique</a>
+                <a href="#">Dealers around you</a>
+                <a href="#">Helpdesk</a>
+                
+                <div class="icon-container">
+                    <div class="fa fa-home" onclick="goHome()" class="fa-home"></div>
+                    <div class="fa fa-sign-out" class="fa-sign-out" onclick="gos()"></div>
+                </div>
+            </div>
+        
+                
+            </div>
+        
+    
+        
+    
+    
+       
+    
+        <script>
+                     function toggleSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        if (sidebar.style.left === "0px" || sidebar.style.left === "") {
+            sidebar.style.left = "-300px";
+        } else {
+            sidebar.style.left = "0px";
+        }
+    }
+
+    // Function to close the sidebar when clicking anywhere on the web page
+    function closeSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.style.left = "-300px";
+    }
+    function goHome() {
+        // Replace 'your-home-page.html' with the actual URL of your home page
+        window.location.href = 'index.html';
+    }
+    function gos() {
+        // Replace 'your-home-page.html' with the actual URL of your home page
+        window.location.href = 'your-home-page.html';
+    }
+        </script>
+        
+        <div style="align-self: stretch; padding-left: 24px; padding-right: 24px; padding-top: 64px; padding-bottom: 64px; background: #C7D36F; justify-content: center; align-items: flex-start; gap: 80px; display: inline-flex">
+            <div style="height: 500px; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
+                <img style="width: 500px; height: 500px" src="OIG__4_-removebg-preview.png" />
+                <div style="flex: 1 1 0; height: 290px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                    <div style="align-self: stretch; height: 290px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 24px; display: flex">
+                        <div style="align-self: stretch; color: #895D5D; font-size: 56px; font-family: Outfit; font-weight: 700; line-height: 67.20px; word-wrap: break-word">Your Inventory</div>
+                        <div style="align-self: stretch; color: #212121; font-size: 18px; font-family: Inter; font-weight: 400; line-height: 27px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</div>
+                        <div style="padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #a6b341; justify-content: flex-start; align-items: flex-end; gap: 8px; display: inline-flex">
+                            <a href="inspect.html" style="color: white; float: right;  font-size: 12px; font-family: Inter; font-weight: 500; line-height: 16.80px; text-decoration: none; word-wrap: break-word">INSPECT/UPDATE STATUS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <div style="align-self: stretch; padding-left: 138px; padding-right: 138px; padding-top: 23px; padding-bottom: 23px; justify-content: space-between; align-items: center; display: inline-flex">
+        <div style="align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+            <div style="width: 358px; flex: 1 1 0; color: #895D5D; font-size: 62px; font-family: Outfit; font-weight: 700; word-wrap: break-word">Watch how your State is performing in the market...</div>
+        </div>
+        <div style="height: 528px; box-shadow: 4px 6px 4px #891515; border: 4px black solid; flex-direction: column; justify-content: space-between; align-items: center; display: inline-flex">
+            <img style="width: 600px; height: 528px" src="abc.png" />
+        </div>
+    </div>
+    <div style="padding-left: 72px; padding-right: 72px; padding-top: 66px; padding-bottom: 66px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: flex">
+        <div style="width: 1284px; height: 265px"><span style="color: black; font-size: 36px; font-family: Roboto Flex; font-weight: 400; line-height: 43.20px; text-shadow: 1px 1px 4px white; word-wrap: break-word">Support [insert Suresh’s state] in this healthy, competitive journey to emerge out as one of the top contributors in India’s agrobusiness...<br/></span><span style="color: #596521; font-size: 64px; font-family: Roboto Flex; font-weight: 700; line-height: 76.80px; text-shadow: 1px 1px 4px white; word-wrap: break-word">Get personalized crop plans incorporating latest R&D to stay ahead in the market</span></div>
+        <div style="height: 450px; padding: 10px; justify-content: center; align-items: flex-start; gap: 25px; display: inline-flex">
+            <div style="height: 430px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <img style="width: 372px; height: 337px; mix-blend-mode: multiply" src="OIG (5).jpeg" />
+                <div style="color: black; font-size: 37px; font-family: Outfit; font-weight: 400; line-height: 44.40px; word-wrap: break-word">Smart Crop plans</div>
+            </div>
+            <div style="height: 430px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <img style="width: 372px; height: 350px; mix-blend-mode: multiply" src="OIG (7).jpeg" />
+                <div style="color: black; font-size: 37px; font-family: Outfit; font-weight: 400; line-height: 44.40px; word-wrap: break-word">Supply guide</div>
+            </div>
+            <div style="height: 430px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <img style="width: 370px; height: 370px; mix-blend-mode: multiply" src="OIG__8_-removebg-preview.png" />
+                <div style="color: black; font-size: 37px; font-family: Outfit; font-weight: 400; line-height: 44.40px; word-wrap: break-word">Accessing untapped potenital</div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; height: 626px; padding-left: 24px; padding-right: 24px; padding-top: 64px; padding-bottom: 64px; background: #AEBF53; flex-direction: column; justify-content: flex-start; align-items: center; gap: 16px; display: flex">
+        <div style="width: 100%; height: 533px; padding-left: 20px; padding-right: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 64px; display: flex">
+            <div style="height: 38px; padding-left: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                <div style="align-self: stretch; color: black; font-size: 32px; font-family: Inter; font-weight: 700; line-height: 38.40px; word-wrap: break-word">Supply data</div>
+            </div>
+            <div style="width: 1377px; height: 422px; padding-left: 100px; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                <div style="width: 484px; height: 392px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                    <img style="width: 484px; height: 392px" src="Untitled design (2).png" />
+                </div>
+                <div style="width: 480px; height: 392px; padding-left: 36px; padding-right: 36px; padding-top: 74px; padding-bottom: 74px; flex-direction: column; justify-content: center; align-items: center; gap: 16px; display: inline-flex">
+                    <div style="align-self: stretch; height: 30px; flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
+                        <div style="align-self: stretch; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 700; line-height: 30px; word-wrap: break-word">2022</div>
+                    </div>
+                    <div style="align-self: stretch; text-align: center; color: black; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 24px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                </div>
+                <div style="width: 105px; height: 392px; padding-top: 147px; padding-bottom: 147px; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div style="width: 89px; height: 79px; text-align: center; color: #895D5D; font-size: 65px; font-family: Irish Grover; font-weight: 400; line-height: 97.50px; word-wrap: break-word">>></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div style="height: 33px; width: 100%; padding-left: 165px; padding-right: 165px; padding-top: 40px; padding-bottom: 40px; background: #895D5D; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 28px; display: flex">
+        <div style="width: 100%; height: 641px; background: #9EB23B; box-shadow: 641px 641px 641px; border-radius: 9999px; filter: blur(641px)"></div>
+        <div style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+            <div style="height: 23px; justify-content: flex-start; align-items: center; gap: 2px; display: flex">
+                <img style="width: 31px; padding-left: 100px; height: 23px" src="OIG-removebg-preview.png" />
+                <div style="width: 92px;  height: 21px"><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 700; line-height: 22.40px; word-wrap: break-word">Data</span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Farm</span></div>
+            </div>
+            <div style="opacity: 0.75; justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
+                <a href="About.html" style="color: black; text-decoration: none; padding-right: 100px; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word">About us</a>
+                <a href="Certificates.html" style="opacity: 0.60; padding-right: 100px; text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Certificates</a>
+                <a href="Contacts.html" style="opacity: 0.60; padding-right: 100px; text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Contacts</a>
+            </div>
+        </div>
+       
+    
+    </div> 
+</div>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Status</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<head>
+    <style>
+  .sidebar {
+        
+            width: 300px; /* Adjust the width as needed */
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: -300px; /* Initially hidden */
+            background-color: #333;
+            overflow-x: hidden;
+            transition: 0.5s;
+            
+           
+            border-right: 2px solid #444;
+        }
+
+        .sidebar-content {
+            display: flex;
+            flex-direction: column;
+            height:100%;
+            
+        
+            background-color:#9FA678; /* Different background color */
+            border:25px solid #A0A943;
+            
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        
+        }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+    
+
+        /* Add your CSS styles for the hamburger icon here */
+        .hamburger {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            z-index: 2;
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .fa-home,
+        .fa-sign-out {
+            font-size: 36px;
+        }
+        .fa-sign-out {
+            margin-left: 150px; /* Adjust the margin as needed */
+        }
+     
+      
+</style>
+  </head>
+<body style="background-color: #C7D36F;" >
+<div style="width: 1625px; height:730px; position: relative; background: white; box-shadow: 0px 8px 13px #9EB23B; margin: none;">
+    <div style="width: 100%; height: 80vh;  background-image: url('OIG.kLzoui9jEGSwmJeEq-removebg-preview.png'); background-repeat: no-repeat;background-size: cover; background-position: center; " ></div>
+    <div style="left: 424px; top: 48px; position: absolute; justify-content: center; align-items: flex-start; gap: 40px; display: inline-flex">
+        <a href="About.html" style="text-decoration: none;color: #31135E; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word ">About</a>
+        <a href="Features.html" style="text-decoration: none; color: black; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Features</a>
+        <a href="Language.html" style="text-decoration: none; color: black; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Language</a>
+        <a href="Help.html" style="text-decoration: none; color: black; font-size: 18px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Help</a>
+    </div>
+    
+    <div style="width: 20px; height: 0px; left: 423px; top: 72px; position: absolute; border: 2px #31135E solid"></div>
+    <div style="left: 1406px; top: 43px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 31px; height: 25px; padding-top: 1.50px; padding-bottom: 0.50px; mix-blend-mode: exclusion; justify-content: center; align-items: center; display: flex">
+            <img style="width: 31px; height: 23px" src="OIG-removebg-preview.png" />
+        </div>
+        <div><span style="color: black;  font-size: 22px; font-family: Roboto; font-weight: 300; word-wrap: break-word">Data</span><span style="color: black; font-size: 22px; font-family: Roboto; font-weight: 700; word-wrap: break-word">Farm</span></div>
+    </div>
+</div>
+
+<br> <br> <br> <br>
+
+<div style="width: 1431px; height: 459px; padding-left: 100px; padding-right: 100px; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
+            <div style="width: 652px; height: 458px; flex-direction: column; justify-content: center; align-items: center; gap: 24px; display: inline-flex">
+                <div style="align-self: stretch; height: 67px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+                    <div style="align-self: stretch; color: #895D5D; font-size: 56px; font-family: Inter; font-weight: 700; line-height: 67.20px; word-wrap: break-word">UPDATE STATUS</div>
+                </div>
+                <div style="width: 523px; height: 368px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+                    <img style="width: 522px; height: 368px" src="Untitled design (4).png" />
+                </div>
+            </div>
+            
+            <div style="flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex">
+                <div style="width: 566px; height: 75px; padding-top: 10px; padding-bottom: 10px; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div style="width: 265px; height: 45px; color: black; font-size: 30px; font-family: Raleway; font-weight: 400; text-decoration: underline; line-height: 42px; word-wrap: break-word">Under Production</div>
+                </div>
+
+    <form>
+    <label for="Corn" style="padding:50px; padding-left: 0px; ">Corn</label> 
+    <label for="Onion" style="padding:50px;">Onion</label> 
+    <label for="Apple" style="padding:50px;">Apple</label> 
+    <label for="Potato" style="padding:50px;">Potato</label>  
+    <br> 
+    <input type="number" name="Corn" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 15px; height: 40px;  margin-left: 0px;">
+    <input type="number" name="Onion" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 7px; height: 40px;  ">
+    <input type="number" name="Apple" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 20px; height: 40px;  ">
+    <input type="number" name="Potato" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 11px; height: 40px;  ">           
+    <br> 
+    <input type="submit" value="Add more items+" style="width:180px; height: 30px;  background-color: #AEBF53;  font-size: 100%;"> 
+    <br> <br>
+    <label for="Item name" style="padding:50px; padding-left: 0px; ">Item name</label> 
+    <label for="Quantity" style="padding:12px;">Quantity</label> 
+    <br>
+    <input type="number" name="Item name" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 15px; height: 40px;  margin-left: 0px;">
+    <input type="number" name="Quantity" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 7px; height: 40px;  ">
+    <input type="submit" value="Save" style="width:500px; height: 50px; color: white; background-color: #AEBF53; border-radius: 5px; font-size: 100%;"> <br>
+    </form>
+
+
+            </div>
+        </div>
+  
+
+    <br> <br> <br> <br>
+    <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+
+        <!-- Sidebar -->
+        <div id="mySidebar" class="sidebar" onclick="closeSidebar()">
+           
+            <!-- Sidebar Content Wrapped in a Div -->
+            
+                <!-- You can add profile picture and other links here -->
+         >
+                
+         <div  class="sidebar-content">
+                    <div style="text-align: center;">
+                        <img src="pro.jpg" alt="Profile Picture" style="width: 80px; height: 80px; border-radius: 50%; margin: 0 auto;">
+                    </div>
+                    <span style="color: white; font-size: 20px; text-align: center;">John Doe</span>
+                   
+                
+                <a href="#" style="padding-top: 50px;">Dashboard</a>
+                <a href="#">Your Inventory</a>
+                <a href="#">Crop plan</a>
+                <a href="#">Soil management</a>
+                <a href="#">Other recommended crops</a>
+                <a href="#">Resources and technique</a>
+                <a href="#">Dealers around you</a>
+                <a href="#">Helpdesk</a>
+                
+                <div class="icon-container">
+                    <div class="fa fa-home" onclick="goHome()" class="fa-home"></div>
+                    <div class="fa fa-sign-out" class="fa-sign-out" onclick="gos()"></div>
+                </div>
+            </div>
+        
+                
+            </div>
+        
+    
+        
+    
+    
+       
+    
+        <script>
+                     function toggleSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        if (sidebar.style.left === "0px" || sidebar.style.left === "") {
+            sidebar.style.left = "-300px";
+        } else {
+            sidebar.style.left = "0px";
+        }
+    }
+
+    // Function to close the sidebar when clicking anywhere on the web page
+    function closeSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.style.left = "-300px";
+    }
+    function goHome() {
+        // Replace 'your-home-page.html' with the actual URL of your home page
+        window.location.href = 'index.html';
+    }
+    function gos() {
+        // Replace 'your-home-page.html' with the actual URL of your home page
+        window.location.href = 'your-home-page.html';
+    }
+        </script>
+
+
+
+   <div style="width: 1431px; height: 459px; padding-left: 100px; padding-right: 100px; justify-content: flex-start; align-items: center; gap: 80px; display: flex">
+        
+
+
+        <div style="flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex">
+            <div style="width: 566px; height: 75px; padding-top: 10px; padding-bottom: 10px; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 265px; height: 45px; color: black; font-size: 30px; font-family: Raleway; font-weight: 400; text-decoration: underline; line-height: 42px; word-wrap: break-word">Storage Status</div>
+            </div>
+
+<form>
+<label for="Corn" style="padding:50px; padding-left: 0px; ">Corn</label> 
+<label for="Onion" style="padding:50px;">Onion</label> 
+<label for="Apple" style="padding:50px;">Apple</label> 
+<label for="Potato" style="padding:50px;">Potato</label>  
+<br> 
+<input type="number" name="Corn" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 15px; height: 40px;  margin-left: 0px;">
+<input type="number" name="Onion" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 7px; height: 40px;  ">
+<input type="number" name="Apple" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 20px; height: 40px;  ">
+<input type="number" name="Potato" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 11px; height: 40px;  ">           
+<br> 
+<input type="submit" value="Add more items+" style="width:180px; height: 30px;  background-color: #AEBF53;  font-size: 100%;"> 
+<br> <br>
+<label for="Item name" style="padding:50px; padding-left: 0px; ">Item name</label> 
+<label for="Quantity" style="padding:12px;">Quantity</label> 
+<br>
+<input type="number" name="Item name" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 15px; height: 40px;  margin-left: 0px;">
+<input type="number" name="Quantity" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 7px; height: 40px;  ">
+<input type="submit" value="Save" style="width:500px; height: 50px; color: white; background-color: #AEBF53; border-radius: 5px; font-size: 100%;"> <br>
+</form>
+
+
+        </div>
+
+        <div style="flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex">
+            <div style="width: 566px; height: 75px; padding-top: 10px; padding-bottom: 10px; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 265px; height: 45px; color: black; font-size: 30px; font-family: Raleway; font-weight: 400; text-decoration: underline; line-height: 42px; word-wrap: break-word">Waste Tracker</div>
+            </div>
+
+<form>
+<label for="Corn" style="padding:50px; padding-left: 0px; ">Corn</label> 
+<label for="Onion" style="padding:50px;">Onion</label> 
+<label for="Apple" style="padding:50px;">Apple</label> 
+<label for="Potato" style="padding:50px;">Potato</label>  
+<br> 
+<input type="number" name="Corn" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 15px; height: 40px;  margin-left: 0px;">
+<input type="number" name="Onion" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 7px; height: 40px;  ">
+<input type="number" name="Apple" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 20px; height: 40px;  ">
+<input type="number" name="Potato" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 11px; height: 40px;  ">           
+<br> 
+<input type="submit" value="Add more items+" style="width:180px; height: 30px;  background-color: #AEBF53;  font-size: 100%;"> 
+<br> <br>
+<label for="Item name" style="padding:50px; padding-left: 0px; ">Item name</label> 
+<label for="Quantity" style="padding:12px;">Quantity</label> 
+<br>
+<input type="number" name="Item name" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 15px; height: 40px;  margin-left: 0px;">
+<input type="number" name="Quantity" placeholder="In KG" style=" border: 5px; border-color: black; width: 100px; padding: 5px; margin: 7px; height: 40px;  ">
+<input type="submit" value="Save" style="width:500px; height: 50px; color: white; background-color: #AEBF53; border-radius: 5px; font-size: 100%;"> <br>
+</form>
+
+
+        </div>
+    </div>
+
+
+<br> <br> <br> <br> 
+
+<footer>
+<div style="height: 5%; width: 140vh; padding-left: 165px; padding-right: 165px; padding-top: 40px; padding-bottom: 40px; background: #895D5D; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 28px; display: flex">
+       
+    <div style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+        <div style="height: 23px; justify-content: flex-start; align-items: center; gap: 2px; display: flex">
+            <img style="width: 31px; padding-left: 100px; height: 23px" src="OIG-removebg-preview.png" />
+            <div style="width: 92px;  height: 21px"><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 700; line-height: 22.40px; word-wrap: break-word">Data</span><span style="color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Farm</span></div>
+        </div>
+        <div style="opacity: 0.75; justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
+            <a href="About.html" style="color: black; text-decoration: none; padding-right: 100px; font-size: 20px; font-family: Inter; font-weight: 500; line-height: 22.40px; word-wrap: break-word">About us</a>
+            <a href="Certificates.html" style="opacity: 0.60; padding-right: 100px; text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Certificates</a>
+            <a href="Contacts.html" style="opacity: 0.60; padding-right: 100px; text-decoration: none; color: black; font-size: 20px; font-family: Inter; font-weight: 400; line-height: 22.40px; word-wrap: break-word">Contacts</a>
+        </div>
+    </div>
+   
+
+</div>
+</footer>
+
+
+
+</body>
+</html>
