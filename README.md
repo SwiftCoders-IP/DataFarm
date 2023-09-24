@@ -50,4 +50,4 @@ We welcome contributions! Follow these steps to contribute:
 
 This project is licensed under the MIT License.
 
-Contact: [contact@datafarm.com]
+Contact: [scipsquad@gmail.com]
