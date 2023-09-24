@@ -6,6 +6,34 @@ LOGO.png :)
 
 DataFarm is a comprehensive agricultural management platform developed by Team SWIFTCODERS-IP during the XYZ Hackathon. It empowers farmers with data-driven insights to optimize crop yield, reduce resource wastage, and improve their livelihoods.
 
+## Team Members
+
+Meet the talented individuals behind DataFarm:
+
+- **Koushik Jalan**
+  - Role: Project Lead
+  - GitHub: [JohnDoe](https://github.com/JohnDoe)
+  
+- **Adarsh Pandey**
+  - Role: Backend Developer
+  - GitHub: [JaneSmith](https://github.com/JaneSmith)
+
+- **Vishal Shukla**
+  - Role: Frontend Developer
+  - GitHub: [DavidLee](https://github.com/DavidLee)
+
+- **Sumit Kumar Jaiswal**
+  - Role: Snacks and Water
+  - GitHub: [EmilyBrown](https://github.com/EmilyBrown)
+ 
+- **Shubham Kumar**
+  - Role: UI/UX Desogner
+  - GitHub: [DavidLee](https://github.com/DavidLee)
+    
+- **Titiksha Mukhopadhayay**
+  - Role: Alive, Girl
+  - GitHub: [DavidLee](https://github.com/DavidLee)
+
 ## Features
 
 - **Weather Forecasts:** Get location-specific weather forecasts for effective planning.
