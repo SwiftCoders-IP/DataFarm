@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Graph</title>
+  </head>
+  <body>
+    <h1>Export Data for Product</h1>
+    <img src="data:image/png;base64,{{ graph_data }}" alt="Product Graph" />
+    <br />
+    <h1>PIE chart for Product</h1>
+    <img src="data:image/jpeg;base64,{{ pie_data }}" alt="Pie chart" />
+    <br />
+    <a href="{% url 'index' %}">Back to Product List</a>
+  </body>
+</html>
