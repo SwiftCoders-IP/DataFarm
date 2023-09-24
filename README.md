@@ -23,7 +23,7 @@ Meet the talented individuals behind DataFarm:
   - GitHub: [Vishal](https://github.com/vishakshukla77)
 
 - **Sumit Kumar Jaiswal**
-  - Role: Assistant Frontend Developer
+  - Role: Frontend Developer
   - GitHub: [Sumit](https://github.com/skjaiswal88)
  
 - **Shubham Kumar**
