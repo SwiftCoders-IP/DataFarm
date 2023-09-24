@@ -1,0 +1,505 @@
+.container1{
+        width: 100%;
+        height: 2500px;
+        background-color: rgba(
+          199.0000033378601,
+          211.00000262260437,
+          111.00000098347664,
+          1
+        );
+        border-style: solid; border-width: thin; border-color: #e7e1e1;
+        
+      
+}
+.container2{
+
+        width: 100%;
+        height: 250px;
+        background-color: transparent;
+        
+        display: flex;
+        
+      
+}
+.container3{
+
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    
+    margin: auto;
+    
+
+  
+  padding: 10px;
+    
+  
+}
+.container4{
+    display: flex;
+    
+    width: 90%;
+    height: 760px;
+    background-color: transparent;
+    
+    margin-left: 20px;
+  
+}
+.container5{
+
+    
+    height: 760px;
+    
+  margin-top: 15px;
+    background-color: rgb(215, 224, 149);
+    float: left;
+    width: 25%;
+   
+
+}
+.container21
+{
+
+    
+    height: 760px;
+    background-color: transparent;
+   
+    
+    float: right;
+    width: 60%;
+    margin-left: 40px;
+    
+  
+}
+.container6{
+
+    width: 100%;
+    height: 310px;
+    background-color: transparent;
+   
+    display: flex;
+    
+  
+}
+.container7{
+width: 100%;
+height: 250px;
+background-color: transparent;
+
+
+
+}
+.container8{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+   
+    
+    
+    }
+    .container9{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: 30px;
+        height: 40px;
+        background-color: transparent;
+        
+        
+        
+        }
+        .container10{
+            width: 90%;
+            margin-left: 15px;
+        height: 550px;
+            background-color: transparent;
+           
+            
+    margin-top: 20px;
+        display: flex;
+            
+            
+            }
+
+            .container11{
+                width: 25%;
+                height: 100%;
+                background-color: rgb(215, 224, 149);
+               ;
+                
+                float: left;
+                
+                }
+                .container12{
+                    width: 75%;
+                    margin-left: 40px;
+                    height:100%;
+                    background-color: transparent;
+                   
+                  
+                    float:right;
+                    
+                    }
+                    .container13{
+                        width: 100%;
+                        height: 35px;
+                        background-color: white;
+                        border-style: solid; border-width: thin; border-color: #FFFFFF;
+                        font-size: 16px;
+                        font-weight: normal;
+                        
+                        
+                        
+                        
+                        }
+                        .container14{
+                            width: 35%;
+                            height: 515px;
+                            background-color: transparent;
+                          
+                            float:left;
+                            
+                            }
+                            .container14 img{
+                              width: 100%;
+                              height: 315px;
+                              
+                            
+                              float:bottom;
+                              
+                              }
+                              .c12{
+                                width: 100%;
+                                height: 515px;
+                                
+                              
+                                float:right;
+                                display: flex;
+                                
+                                }
+
+                            .container15{
+                                width: 65%;
+                                height: 515px;
+                                background-color: transparent;
+                                background-color: rgb(215, 224, 149);
+                                float:right;
+                                
+                                
+                                
+                                }
+                                .container16{
+                                margin-top: 20px;
+                                    width: 90%;
+                                    margin-left:15px;
+                                    
+                                    height: 700px;
+                                    background-color: transparent;
+                                  
+                                    display: flex;
+                                    
+                                    }
+                                    .container17{
+                                        float:left;
+                                        width: 25%;
+                                        min-height: 700px;
+                                        background-color: rgb(215, 224, 149);
+                                       
+                              
+                                        
+                                        }
+                                      
+                                            .container22{
+                                                height: 700px;
+                                                background-color: transparent;
+                                              
+                                                
+                                                float: right;
+                                                width: 75%;
+                                                margin-left: 40px;
+
+                                            }
+                                            .container18{
+                                              width: 100%;
+                                              height: 35px;
+                                              background-color: white;
+                                             
+                                              font-size: 16px;
+                                              font-weight: normal;
+                                               
+                                                
+                                                }
+                                            .container19{
+                                                width: 100%;
+                                                height: 130px;
+                                                background-color: transparent;
+                                               
+                                              
+                                                
+                                                }
+                                                .container20{
+                                                    width: 100%;
+                                                    height: 505px;
+                                                    background-color: rgb(215, 224, 149);
+                                                   
+                                                   
+                                                    
+                                                    }
+.a{
+    width: 25%;
+    height: 250px;
+    background-color: transparent;
+    
+    float:left;
+}
+.a #x{
+    height: 80%;
+    width: 70%;
+    margin-left:110px ;
+}
+.b{
+    width: 50%;
+    height: 250px;
+    background-color: transparent;
+    
+    float:center;
+}
+.b #y{
+
+    
+    color: rgba(137.06250607967377, 93.08827891945839, 93.08827891945839, 1);
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 97px;
+
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+  margin-left: 0px;
+  
+    
+}
+
+.b #z{
+
+ 
+    
+    color: rgba(244.0000006556511, 235.0000011920929, 226.0000017285347, 1);
+    text-shadow: 3px 4px 4px
+      rgba(151.00000619888306, 151.00000619888306, 151.00000619888306, 1);
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 16px;
+    float:center;
+    margin-left: 140px;
+    margin-bottom: 200px;
+    
+   
+
+
+  
+    
+}
+.c{
+    width: 25%;
+    height: 250px;
+    background-color: transparent;
+  
+    float:right;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  margin-top: 140px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  
+  background:grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  padding:0px;
+  margin-top: 140px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  .list{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(137.06250607967377, 93.08827891945839, 93.08827891945839, 1); 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 5px;
+    margin-top: 0px;
+  }
+  .list li {
+    
+    margin-right: 10px; /* Add spacing between list items */
+    padding: 5px 10px; /* Optional padding for each list item */
+    
+    color: rgba(252.00000017881393, 249.00000035762787, 198.00000339746475, 1);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 17px;
+    list-style: none;
+    margin-top: 5px;
+
+    
+    
+
+  }
+  .container5 h3{
+    
+    color: rgba(238.00000101327896, 238.00000101327896, 238.00000101327896, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    
+    letter-spacing: 2.24px;
+    line-height: 18.75px;
+  }
+  .container5 p{
+   
+    color: rgba(0, 0, 0, 1);
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+    
+    letter-spacing: 1.8200000000000003px;
+    line-height: 22px;
+  }
+  .ab{
+    width:55%;
+    height:250px;
+    float:left;
+    margin-left: 50px;
+    margin-top: 105px;
+
+    top: 0;
+    
+    color: rgba(0, 0, 0, 1);
+    text-shadow: 3px 4px 4px
+    rgba(151.00000619888306, 151.00000619888306, 151.00000619888306, 1);
+    font-family: Roboto Serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    
+    letter-spacing: 6px;
+    line-height: 46.84000015258789px;
+  }
+  .bc{
+    width:40%;
+    height:310px;
+    float:right;
+
+  }
+  .bc #l{
+    height:100%;
+    width:100%;
+  }
+  .container8 h4{
+   
+   
+    color: rgba(0, 0, 0, 1);
+    font-family: Roboto Flex;
+    font-weight: 600;
+    
+    text-align: left;
+
+    
+  }
+  .list1{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(215, 224, 149);
+    display: flex; 
+    
+
+    padding: 0px;
+    
+  }
+  .list1 li {
+    
+    margin-right: 10px; /* Add spacing between list items */
+    padding: 5px 10px; /* Optional padding for each list item */
+    
+    color: rgba(137.06250607967377, 93.08827891945839, 93.08827891945839, 1);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 17px;
+    list-style: none;
+    
+  
+    
+    
+
+  }
+  .container11 h3{
+    color: rgba(238.00000101327896, 238.00000101327896, 238.00000101327896, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    
+    letter-spacing: 2.24px;
+    line-height: 18.75px;
+  }
+  .container13 h4{
+    margin-left:10px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+   .container18 h3{
+    margin-left:10px;
+    
+  
+    padding-top: 7px;
+  }
+  .container20 {
+    text-align: center;
+  }
+
+  .container20 img {
+    border-radius: 50%;
+    width: 70px; /* Adjust the size as needed */
+    height: 70px; /* Adjust the size as needed */
+     /* Adjust the spacing between images */
+    
+    
+  }
+  .container20 img:hover{
+    width: 75px;
+    height: 75px;
+    
+  }
+  .container20 .image-container:hover {
+    transform: scale(1.2); /* Increase the scale on hover */
+  }
+
+  .container20 .image-container {
+    display: inline-block;
+    margin: 3px; /* Adjust the spacing between rows */
+    transition: transform 0.3s;
+  }
