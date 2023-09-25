@@ -31,7 +31,7 @@ Meet the talented individuals behind DataFarm:
   - GitHub: [Shubham](https://github.com/ThisIsShubh)
     
 - **Titiksha Mukhopadhayay**
-  - Role: UI/UX
+  - Role: Very Important
   - GitHub: [Titiksha](https://github.com/Titiksha2608)
 
 ## Features
@@ -76,6 +76,6 @@ We welcome contributions! Follow these steps to contribute:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is not licensed.
 
 Contact: [scipsquad@gmail.com]
