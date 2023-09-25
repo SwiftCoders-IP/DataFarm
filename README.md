@@ -1,6 +1,6 @@
 # DataFarm
 
-LOGO.png :)
+#[SCIP]
 
 ## About
 
