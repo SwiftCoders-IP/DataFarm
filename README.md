@@ -11,15 +11,15 @@ DataFarm is a comprehensive agricultural management platform developed by Team S
 Meet the talented individuals behind DataFarm:
 
 - **Koushik Jalan**
-  - Role: Project Lead, MS Excel
+  - Role: Project Lead, ML AI
   - GitHub: [Koushik](https://github.com/Koushikjalan)
   
 - **Adarsh Pandey**
-  - Role: Backend Developer
+  - Role: Backend Developer, ML
   - GitHub: [Adarsh](https://github.com/AdarshP1133)
 
 - **Vishal Shukla**
-  - Role: Frontend Developer
+  - Role: FullStack Developer
   - GitHub: [Vishal](https://github.com/vishakshukla77)
 
 - **Sumit Kumar Jaiswal**
@@ -31,7 +31,7 @@ Meet the talented individuals behind DataFarm:
   - GitHub: [Shubham](https://github.com/ThisIsShubh)
     
 - **Titiksha Mukhopadhayay**
-  - Role: Very Important
+  - Role: UI/UX
   - GitHub: [Titiksha](https://github.com/Titiksha2608)
 
 ## Features
