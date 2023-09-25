@@ -1,6 +1,6 @@
 # DataFarm
 
-# SCIP
+# SwiftCoders-IP
 
 ## About
 
