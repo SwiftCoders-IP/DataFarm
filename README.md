@@ -20,7 +20,7 @@ Meet the talented individuals behind DataFarm:
 
 - **Vishal Shukla**
   - Role: FullStack Developer
-  - GitHub: [Vishal](https://github.com/vishakshukla77)
+  - GitHub: [Vishal](https://github.com/vishalshukla77)
 
 - **Sumit Kumar Jaiswal**
   - Role: Frontend Developer
